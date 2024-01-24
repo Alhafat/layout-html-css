@@ -1,0 +1,281 @@
+/* рамка центр */
+.rec_6 {
+  width: 1319px;
+  height: 928px;
+  margin-left: 298px;
+  margin-right: 303px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.home__page {
+  width: 1920px;
+  height: 700px;
+  flex-shrink: 0;
+  background: #FFF;
+
+
+  /* рамка, логотип, основное меню */
+  .rec_7 {
+    width: 1289px;
+    height: 114px;
+    margin-top: 14px;
+    margin-left: 18px;
+    margin-right: 12px;
+    border: 1px solid #0150E9;
+
+    /*логотип*/
+    .logo {
+      width: 35px;
+      height: 40px;
+      margin-left: 59px;
+      margin-top: 26px;
+      float: left;
+      /* margin-right: 1510px; */
+      /* margin-bottom: 48px; */
+      padding-top: 5px;
+      flex-shrink: 0;
+      /* float: inline-start; */
+      background: url(img/logo.svg), lightgray 50% / cover no-repeat;
+
+    }
+
+    /*текст логотипа*/
+    .text {
+      width: 88px;
+      height: 30px;
+      font-family: Gilroy-Bold;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-top: 45px;
+      margin-left: 49px;
+
+      .black {
+        color: #000;
+      }
+
+      .red {
+        margin: auto;
+        color: #F25822;
+      }
+    }
+
+    /*основное меню*/
+    .rec_9 {
+      width: 556px;
+      height: 40px;
+      flex-shrink: 0;
+      margin-top: 26px;
+      margin-left: 533px;
+      /* float: inline-start; */
+      border: 1px solid #20C905;
+    }
+
+    /*текст меню(ссылок)*/
+    .meun_bar {
+      margin-top: 11px;
+      width: 1016px;
+      height: 40px;
+      flex-shrink: 0;
+      margin-left: 9px;
+
+      .text_meun_orange {
+        font-size: 14px;
+        font-style: normal;
+        /*насыщенность шрифта*/
+        font-weight: 400;
+        /*высота строки*/
+        line-height: normal;
+        font-family: Gilroy-SemiBold;
+        color: #F25822;
+      }
+
+      .text_meun_black {
+        padding-left: 35px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-family: Gilroy-Medium;
+        color: #000;
+      }
+    }
+  }
+
+
+  /* контент общий*/
+  .rec_10 {
+    width: 1274px;
+    height: 536px;
+    margin-top: 21px;
+    margin-left: 18px;
+    margin-right: 27px;
+    border: 1px solid #E99C08;
+
+    /*контент левый*/
+    .rec_11 {
+      width: 589px;
+      height: 494px;
+      margin-top: 15px;
+      margin-left: 16px;
+      float: left;
+      border: 1px solid #BD0EFB;
+
+      .h1 {
+        width: 522px;
+        height: 222px;
+        margin-left: 41px;
+        margin-top: 59px;
+        margin-right: 26px;
+        text-align: left;
+        color: #000;
+        font-family: Gilroy-Bold;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .h2 {
+        margin-left: 41px;
+        margin-top: 17px;
+        color: #888;
+        font-family: Gilroy-Medium;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      /*кнопка старта и просмотра в контенте*/
+      .rec_12 {
+        width: 374px;
+        height: 94px;
+        margin-top: 16px;
+        margin-left: 20px;
+        float: left;
+        border: 1px solid #FF1DA4;
+
+        .start_now {
+          margin-top: 21px;
+          margin-left: 23px;
+          width: 140px;
+          height: 50px;
+          flex-shrink: 0;
+          border-radius: 50px;
+          background: #F25822;
+          box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+        }
+
+        .watch_video {
+          margin-left: 72px;
+          color: #AAA;
+          font-family: Gilroy-Bold;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+
+    }
+
+    /*контент правый*/
+    .rec_2 {
+      width: 610.735px;
+      height: 372.904px;
+      flex-shrink: 0;
+      margin-left: 618px;
+      margin-top: 13.71px;
+      background: #C4C4C4;
+
+      .SEO_img {
+        width: 610.735px;
+        height: 372.904px;
+        flex-shrink: 0;
+        background: url(img/pngfind\ 1.svg), lightgray 50% / cover no-repeat;
+      }
+    }
+  }
+}
+
+
+
+/* подвал */
+.footer {
+  width: 1920px;
+  height: 243px;
+  flex-shrink: 0;
+  background: #FFF;
+
+  .rec_13 {
+    width: 1240px;
+    height: 158px;
+    margin-top: 38px;
+    margin-left: 34px;
+    border: 1px solid #19FBFB;
+
+    .img_1 {
+      width: 160px;
+      height: 50px;
+      flex-shrink: 0;
+      float: left;
+      margin-left: 13px;
+      margin-top: 59px;
+      float: inline-start;
+      background: url(img/1.svg), white 100% / cover no-repeat;
+    }
+
+    .img_2 {
+      width: 160px;
+      height: 50px;
+      flex-shrink: 0;
+      margin-left: 47px;
+      margin-top: 59px;
+      float: inline-start;
+      background: url(img/2.svg), white 100% / cover no-repeat;
+    }
+
+    .img_3 {
+      width: 160px;
+      height: 50px;
+      flex-shrink: 0;
+      margin-left: 47px;
+      margin-top: 59px;
+      float: inline-start;
+      background: url(img/3.svg), white 100% / cover no-repeat;
+    }
+
+    .img_4 {
+      width: 160px;
+      height: 50px;
+      flex-shrink: 0;
+      margin-left: 47px;
+      margin-top: 59px;
+      float: inline-start;
+      background: url(img/4.svg), white 100% / cover no-repeat;
+    }
+
+    .img_5 {
+      width: 160px;
+      height: 50px;
+      flex-shrink: 0;
+      margin-left: 47px;
+      margin-top: 59px;
+      float: inline-start;
+      background: url(img/5.svg), white 100% / cover no-repeat;
+    }
+
+    .img_6 {
+      width: 160px;
+      height: 50px;
+      flex-shrink: 0;
+      margin-right: 27px;
+      margin-top: 59px;
+      float: inline-end;
+      background: url(img/6.svg), white 100% / cover no-repeat;
+    }
+  }
+}
