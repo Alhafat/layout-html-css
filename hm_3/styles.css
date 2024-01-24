@@ -189,13 +189,13 @@
       flex-shrink: 0;
       margin-left: 618px;
       margin-top: 13.71px;
-      background: #C4C4C4;
+      background: white;
 
       .SEO_img {
-        width: 610.735px;
-        height: 372.904px;
+        width: 544.814px;
+        height: 374.843px;
         flex-shrink: 0;
-        background: url(img/pngfind\ 1.svg), lightgray 50% / cover no-repeat;
+        background: url(img/pngfind\ 1.svg), white 100% / cover no-repeat;
       }
     }
   }
