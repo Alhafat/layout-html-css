@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  width: 1920px;
+} */
+
+.center {
+  padding-left: calc(50% - 960px);
+  padding-right: calc(50% - 960px);
+}
+
+.under {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  gap: 48px;
+}
