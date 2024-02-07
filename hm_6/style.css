@@ -31,7 +31,7 @@
 }
 
 .brand {
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
@@ -49,8 +49,8 @@
 }
 
 .item_right {
-    display: flex;
     width: 50vw;
+    display: flex;
     height: 764px;
     font-family: Lato;
     color: #222222;
@@ -100,22 +100,52 @@
 
 
 .text_news {
+    margin-top: 105px;
+    width: 9.625vw;
+    height: 25px;
     font-family: Lato;
     line-height: 0px;
     letter-spacing: 0%;
-    text-align: center;
-    color: #FFFFFF;
+    flex-wrap: wrap;
 }
 
-.news_1_h1 {
-    font-size: 24px;
-    font-weight: 700;
+.news_1 {
+    width: 360px;
+    height: 260px;
+    background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/for_women.svg);
+}
+
+
+.news_2 {
+    width: 360px;
+    height: 260px;
+    background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/for_men.svg);
+}
+
+.news_3 {
+    width: 360px;
+    height: 260px;
+    background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/for_kids.svg);
+}
+
+
+.news_h1 {
+    margin-left: 103px;
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+
 }
 
 .news_h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
     color: #F16D7F;
 }
 
@@ -125,8 +155,192 @@
     margin-left: 14.375vw;
     height: 180px;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/luxirous.svg);
+    align-content: space-around;
+}
+
+.luxirous_h1 {
+    width: 160px;
+    height: 50px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.luxirous_h1_pink {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F16D7F;
+}
+
+
+.content {
+    margin-top: 96px;
+    font-family: Lato;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    background: rgb(255, 255, 255);
+}
+
+
+.content_h1 {
+    color: rgb(34, 34, 34);
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.content_h2 {
+    color: rgb(159, 159, 159);
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.product {
+    margin-top: 48px;
+    /* display: grid;
+    grid-template-columns: 22.5vw;
+    height: 581px;
+    flex-wrap: wrap; */
+    background: rgb(248, 248, 248);
+}
+
+.product_first_line {
+    /* display: grid; */
+    /* grid-template-columns: auto, repeat(3*22.5vw), auto; */
+    min-width: 22.5vw;
+    display: flex;
+    justify-content: center;
+    height: 581px;
+    flex-wrap: wrap;
+    gap: 1.875vw;
+}
+
+.item_product_1 {
+    width: 22.5vw;
+    height: 420px;
+    /* background: url("img/1_product.svg"), rgb(247, 228, 226); */
+    /* border: 1px solid #000; */
+}
+
+.item_product_2 {
+    width: 22.5vw;
+    height: 420px;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background: rgb(247, 228, 226);
+    /* border: 1px solid #000; */
+
+}
+
+.product_2_h1 {
+    margin-top: 384.45px;
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.product_2_h2 {
+    margin-top: 384.45px;
+    width: 19.67125vw;
+    height: 51px;
+    margin-top: 12.65px;
+    color: rgb(93, 93, 93);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.item_product_3 {
+    width: 22.5vw;
+    height: 420px;
+    /* border: 1px solid #000; */
+
+}
+
+
+.product_second_line {
+    /* display: grid; */
+    /* grid-template-columns: auto, repeat(3*22.5vw), auto; */
+    display: flex;
+    justify-content: center;
+    height: 581px;
+    flex-wrap: wrap;
+    gap: 1.875vw;
+}
+
+.item_product_4 {
+    width: 22.5vw;
+    height: 420px;
+    /* border: 1px solid #000; */
+
+}
+
+
+.item_product_5 {
+    width: 22.5vw;
+    height: 420px;
+    background: #F3EDED;
+    /* border: 1px solid #000; */
+
+}
+
+.item_product_6 {
+    width: 22.5vw;
+    height: 420px;
+    /* border: 1px solid #000; */
+
+}
+
+.product_h1 {
+    margin-top: 24px;
+    color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.product_h2 {
+    width: 19.67125vw;
+    height: 51px;
+    margin-top: 12.65px;
+    color: rgb(93, 93, 93);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.price {
+    margin-top: 16px;
+    color: rgb(241, 109, 127);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+
 }
 
 
@@ -145,6 +359,7 @@
 }
 
 .text_button {
+    padding-bottom: 60px;
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
