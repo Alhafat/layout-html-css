@@ -128,3 +128,28 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+.under {
+    margin-top: 48px;
+    width: 13.25vw;
+    height: 48px;
+    border: 1px solid rgb(255, 106, 106);
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: rgb(242, 99, 118);
+    display: flex;
+    justify-content: center;
+}
+
+.text_button {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+    color: #F26376;
+}
