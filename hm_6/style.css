@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    max-width: 100vw;
+    height: 75px;
+    display: flex;
+    flex-wrap: nowrap;
+    background: rgb(34, 34, 34);
+    flex-direction: row;
+    /* align-content: center; */
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_1 {
+    /* margin-left: 14.4375vw; */
+    min-width: 2.75vw;
+    min-height: 1.196581vh;
+}
+
+.item_2 {
+    margin-top: 1.04vh;
+    padding-left: 2.5625vw;
+    padding-right: 53.6875vw;
+    min-width: 6.9375vw;
+    min-height: 1.299145vh;
+}
+
+.brand {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.item_left {
+    width: 50vw;
+    height: 764px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(241, 228, 230);
+
+}
+
+.item_right {
+    display: flex;
+    width: 50vw;
+    height: 764px;
+    font-family: Lato;
+    color: #222222;
+    background: rgb(241, 228, 230);
+    align-items: center;
+}
+
+.item_right_1 {
+    width: 12px;
+    height: 92px;
+    margin-right: 1vw;
+    background: rgb(241, 109, 127);
+}
+
+.text_logo {
+    width: 373px;
+    height: 93px;
+}
+
+.logo_h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo_h2 {
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.logo_h2_pink {
+    color: #F16D7F;
+}
+
+
+.new_trands {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 1.875vw;
+    margin-top: 65px;
+}
+
+
+.text_news {
+    font-family: Lato;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.news_1_h1 {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.news_h2 {
+    color: #F16D7F;
+}
+
+.luxirous_and_trands {
+    width: 71.25vw;
+    margin-top: 30px;
+    margin-left: 14.375vw;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
