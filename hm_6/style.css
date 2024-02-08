@@ -375,14 +375,17 @@
     display: grid;
     grid-template-rows: 420px, 166px;
     border: 1px solid #000;
-    /* width: 22.5vw; */
-    max-height: 581px;
     background: rgb(248, 248, 248);
     align-items: start;
     justify-items: stretch;
 }
 
 .foto_product_2 {
+    height: 400px;
+    width: 22.5vw;
+    object-fit: scale-down;
+
+    /* еще больше контроля с max-width */
     /* width: 8.87125vw; */
     max-height: 400px;
     padding-top: 9px;
