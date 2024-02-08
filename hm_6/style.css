@@ -99,15 +99,6 @@
 }
 
 
-.text_news {
-    margin-top: 105px;
-    width: 9.625vw;
-    height: 25px;
-    font-family: Lato;
-    line-height: 0px;
-    letter-spacing: 0%;
-    flex-wrap: wrap;
-}
 
 .news_1 {
     width: 360px;
@@ -128,43 +119,55 @@
     background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/for_kids.svg);
 }
 
-
 .news_h1 {
     margin-left: 103px;
+    margin-top: 105px;
+    width: 154px;
+    /* height: 25px; */
+    text-align: center;
     display: flex;
     justify-content: center;
-    text-align: center;
+    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+    /* line-height: 0px; */
+    letter-spacing: 0%;
+    text-align: center;
     color: #FFFFFF;
-
 }
 
 .news_h2 {
+    margin-left: 103px;
+    width: 154px;
+    height: 25px;
+    text-align: center;
     display: flex;
     justify-content: center;
-    text-align: center;
+    flex-wrap: nowrap;
+    font-family: Lato;
     font-size: 24px;
     font-weight: 700;
+    /* line-height: 0px; */
+    letter-spacing: 0%;
+    text-align: center;
     color: #F16D7F;
 }
 
 .luxirous_and_trands {
     width: 71.25vw;
-    margin-top: 30px;
-    margin-left: 14.375vw;
     height: 180px;
+    margin-top: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    text-align: center;
     background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/luxirous.svg);
-    align-content: space-around;
 }
 
+
 .luxirous_h1 {
-    width: 160px;
-    height: 50px;
+    width: 159.72px;
+    height: 25px;
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
@@ -174,9 +177,17 @@
     color: #FFFFFF;
 }
 
-.luxirous_h1_pink {
+.luxirous_h2_pink {
+    /* width: 159.72px;
+    height: 25px; */
     font-size: 24px;
     font-weight: 700;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 0px;
+    letter-spacing: 0%;
+    text-align: center;
     color: #F16D7F;
 }
 
@@ -205,16 +216,10 @@
 
 .product {
     margin-top: 48px;
-    /* display: grid;
-    grid-template-columns: 22.5vw;
-    height: 581px;
-    flex-wrap: wrap; */
     background: rgb(248, 248, 248);
 }
 
 .product_first_line {
-    /* display: grid; */
-    /* grid-template-columns: auto, repeat(3*22.5vw), auto; */
     min-width: 22.5vw;
     display: flex;
     justify-content: center;
@@ -226,7 +231,7 @@
 .item_product_1 {
     width: 22.5vw;
     height: 420px;
-    /* background: url("img/1_product.svg"), rgb(247, 228, 226); */
+    background: url("img/1_product.svg"), rgb(247, 228, 226);
     /* border: 1px solid #000; */
 }
 
