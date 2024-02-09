@@ -221,9 +221,9 @@
     max-width: 100vw;
     margin-top: 48px;
     display: grid;
-    grid-template-columns: 22.5vw 22.5vw 22.5vw;
+    grid-template-columns: 360px 360px 360px;
     height: 581px;
-    gap: 1.875vw;
+    gap: 30px;
     justify-content: center;
 }
 
@@ -234,6 +234,7 @@
     max-height: 581px;
     align-items: start;
     justify-items: stretch;
+    flex-wrap: wrap;
     background: rgb(248, 248, 248);
 }
 
@@ -242,7 +243,7 @@
     min-height: 166px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 
