@@ -5,29 +5,42 @@
 
 
 .header {
-    max-width: 100vw;
+    width: 100vw;
     height: 75px;
     display: flex;
     flex-wrap: nowrap;
     background: rgb(34, 34, 34);
-    flex-direction: row;
     gap: 2vw;
     justify-content: center;
     align-items: center;
+    /* flex-direction: row; */
 }
 
 .item_1 {
-    /* margin-left: 14.4375vw; */
-    min-width: 2.75vw;
-    min-height: 1.196581vh;
+    min-width: 44px;
+    min-height: 38px;
 }
 
 .item_2 {
-    margin-top: 1.04vh;
-    padding-left: 2.5625vw;
-    padding-right: 53.6875vw;
-    min-width: 6.9375vw;
-    min-height: 1.299145vh;
+    margin-left: 2.5625vw;
+    min-width: 26px;
+    min-height: 26.79px;
+}
+
+.item_3 {
+    margin-left: 53.6875vw;
+    min-width: 32px;
+    min-height: 23px;
+}
+
+.item_4 {
+    min-width: 29px;
+    min-height: 29px;
+}
+
+.item_5 {
+    min-width: 32px;
+    min-height: 29px;
 }
 
 .brand {
@@ -35,6 +48,7 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    background: rgb(241, 228, 230);
 }
 
 .item_left {
@@ -44,7 +58,7 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background: rgb(241, 228, 230);
+    /* background: rgb(241, 228, 230); */
 
 }
 
@@ -54,13 +68,14 @@
     height: 764px;
     font-family: Lato;
     color: #222222;
-    background: rgb(241, 228, 230);
+    /* background: rgb(241, 228, 230); */
     align-items: center;
 }
 
 .item_right_1 {
     width: 12px;
-    height: 92px;
+    min-height: 92px;
+    margin-left: 30px;
     margin-right: 1vw;
     background: rgb(241, 109, 127);
 }
@@ -107,19 +122,19 @@
 
 .news_1 {
     max-width: 360px;
-    max-height: 260px;
+    height: 260px;
     background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/for_women.svg);
 }
 
 .news_2 {
     max-width: 360px;
-    max-height: 260px;
+    height: 260px;
     background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/for_men.svg);
 }
 
 .news_3 {
     max-width: 360px;
-    max-height: 260px;
+    height: 260px;
     background: linear-gradient(to top, rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7)), url(img/for_kids.svg);
 }
 
@@ -310,6 +325,54 @@
     text-align: left;
 }
 
+.under_content {
+    width: 100vw;
+    min-height: 341px;
+    background: #222224;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.under_content_under1 {
+
+    height: 134px;
+    /* border: 1px solid #ffffff; */
+}
+
+.under_content_under2 {
+    height: 134px;
+    /* border: 1px solid #ffffff; */
+}
+
+.under_content_under3 {
+    height: 134px;
+    /* border: 1px solid #ffffff; */
+}
+
+.h1_under_content {
+    color: rgb(251, 251, 251);
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.p_under_content {
+    color: rgb(251, 251, 251);
+    font-family: Lato;
+    font-size: 13.97px;
+    font-weight: 300;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
 @media (max-width: 1024px) {
     .new_trands {
         width: 100vw;
@@ -318,6 +381,18 @@
         gap: 14px;
     }
 
+    .text_logo {
+        width: 283px;
+        height: 78px;
+    }
+
+    .logo_h1 {
+        font-size: 44px;
+    }
+
+    .logo_h2 {
+        font-size: 24px;
+    }
 
     .news_h1 {
         justify-content: center;
@@ -335,28 +410,38 @@
 
     .products {
         grid-gap: 14px;
-    }
-
-    .luxirous_and_trands {
-        margin-left: 20px;
-        margin-right: 20px;
     }
 }
 
 @media (width: 768px) {
+
+    .text_logo {
+        width: 283px;
+        height: 78px;
+    }
+
+    .logo_h1 {
+        font-size: 44px;
+    }
+
+    .logo_h2 {
+        font-size: 24px;
+    }
+
     .new_trands {
         max-width: 100vw;
         grid-template-columns: repeat(auto-fit, minmax(200px, 237px));
         gap: 14px;
-        /* border: 1px solid #000; */
     }
 
     .news_h1 {
         margin-left: 39px;
+        justify-content: center;
     }
 
     .news_h2 {
         margin-left: 39px;
+        justify-content: center;
     }
 
     .luxirous_and_trands {
@@ -371,9 +456,153 @@
         /* border: 1px solid #000; */
 
     }
+}
+
+@media (max-width: 425px) {
+
+    .item_3 {
+        margin-left: 200px;
+    }
+
+    .item_4 {
+        display: none;
+    }
+
+    .item_5 {
+        display: none;
+    }
+
+    .item_left {
+        display: none;
+    }
+
+    .item_right {
+        width: 100vw;
+        height: 363px;
+    }
+
+    .item_right_1 {
+        width: 12px;
+        height: 61px;
+        margin-left: 56px;
+        margin-right: 15px;
+    }
+
+    .text_logo {
+        width: 236px;
+        height: 66px;
+    }
+
+    .logo_h1 {
+        font-size: 38px;
+    }
+
+    .logo_h2 {
+        font-size: 20px;
+    }
+
+    .new_trands {
+        width: 100vw;
+        grid-template-columns: repeat(auto-fit, minmax(243px, 345px));
+        gap: 32px;
+    }
+
+    .news_h1 {
+        justify-content: center;
+    }
+
+    .news_h2 {
+        justify-content: center;
+    }
 
     .luxirous_and_trands {
         margin-left: 14px;
         margin-right: 14px;
+    }
+
+    .products {
+        grid-gap: 14px;
+        /* border: 1px solid #000; */
+
+    }
+}
+
+@media (width: 320px) {
+
+    .item_3 {
+        margin-left: 180px;
+    }
+
+    .item_4 {
+        display: none;
+    }
+
+    .item_5 {
+        display: none;
+    }
+
+    .item_left {
+        display: none;
+    }
+
+    .item_right {
+        width: 100vw;
+        height: 363px;
+    }
+
+    .item_right {
+        width: 100vw;
+        height: 363px;
+    }
+
+    .item_right_1 {
+        width: 12px;
+        height: 61px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .text_logo {
+        width: 236px;
+        height: 66px;
+    }
+
+    .logo_h1 {
+        font-size: 36px;
+    }
+
+    .logo_h2 {
+        font-size: 20px;
+    }
+
+    .new_trands {
+        width: 100vw;
+        grid-template-columns: repeat(auto-fit, minmax(243px, 345px));
+        gap: 32px;
+    }
+
+    .news_h1 {
+        justify-content: center;
+    }
+
+    .news_h2 {
+        justify-content: center;
+    }
+
+    .luxirous_and_trands {
+        margin-left: 0;
+        margin-right: 0;
+        border: 1px solid #000;
+
+    }
+
+    .products {
+        grid-gap: 14px;
+        /* border: 1px solid #000; */
+
+    }
+
+    .under_content {
+        grid-template-columns: repeat(auto-fit, 320px);
     }
 }
