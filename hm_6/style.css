@@ -324,51 +324,134 @@
 }
 
 .under_content {
-    width: 100vw;
+    padding-top: 49px;
+    padding-bottom: 64px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
     min-height: 341px;
     background: #222224;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 360px);
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
     gap: 30px;
+    text-align: center;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 
 .under_content_under1 {
-
+    /* height: 134px; */
     height: 134px;
-    /* border: 1px solid #ffffff; */
 }
 
 .under_content_under2 {
     height: 134px;
-    /* border: 1px solid #ffffff; */
 }
 
 .under_content_under3 {
     height: 134px;
-    /* border: 1px solid #ffffff; */
 }
 
 .h1_under_content {
+    margin-top: 29px;
     color: rgb(251, 251, 251);
     font-family: Lato;
     font-size: 19.96px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0%;
-    text-align: left;
+    /* text-align: center; */
 }
 
 .p_under_content {
+    margin-top: 16px;
     color: rgb(251, 251, 251);
     font-family: Lato;
     font-size: 13.97px;
     font-weight: 300;
     line-height: 17px;
     letter-spacing: 0%;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.subscribe {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    width: 100vw;
+    min-height: 448px;
+    background:
+        linear-gradient(to top, rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)),
+        url(img/fonts_subscribe.svg) no-repeat center center fixed;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 360px));
+    justify-content: space-around;
+    align-items: center;
+    /* grid-gap: 224px; */
+}
+
+.sub_1 {
+    height: 225px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #000;
+}
+
+.sub_2 {
+    height: 142px;
+    display: grid;
+    grid-template-rows: auto-fit, 61px, 81px;
+    border: 1px solid #000;
+}
+
+.footer {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    width: 100vw;
+    min-height: 79px;
+    background: rgb(34, 34, 36);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px 160px);
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.left_foo {
+    color: rgb(251, 251, 251);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.rigth_foo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+
+
+.rigth-foo_elem {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
 }
 
 @media (max-width: 1024px) {
@@ -409,6 +492,12 @@
     .products {
         grid-gap: 14px;
     }
+
+    .under_content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px);
+        gap: 15px;
+    }
 }
 
 @media (width: 768px) {
@@ -445,14 +534,16 @@
     .luxirous_and_trands {
         margin-left: 14px;
         margin-right: 14px;
-        /* border: 1px solid #000; */
-
     }
 
     .products {
         grid-gap: 14px;
-        /* border: 1px solid #000; */
+    }
 
+    .under_content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 360px);
+        gap: 47px;
     }
 }
 
@@ -523,6 +614,38 @@
         /* border: 1px solid #000; */
 
     }
+
+    .under_content {
+        gap: 47px;
+    }
+
+    .footer {
+        padding-left: 20px;
+        padding-top: 43px;
+        padding-bottom: 40px;
+        padding-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        /* gap: 15px; */
+    }
+
+    .rigth_foo {
+        order: 1;
+    }
+
+    .left_foo {
+        margin-top: 15px;
+        order: 2;
+    }
+}
+
+@media (max-width:375px) {
+    /* .footer {
+        display: flex;
+    } */
+
 }
 
 @media (width: 320px) {
