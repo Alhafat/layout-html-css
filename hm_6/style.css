@@ -39,12 +39,10 @@
 .dropdown-content {
     margin-top: 25px;
     padding-bottom: 32px;
-    position: absolute;
     width: 232px;
     display: none;
     position: absolute;
     background-color: rgb(255, 255, 255);
-    /* margin-top: 11px; */
     color: rgb(111, 110, 110);
 }
 
