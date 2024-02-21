@@ -322,6 +322,8 @@
     grid-gap: 30px;
 }
 
+
+
 .product_product {
     display: grid;
     grid-template-rows: 420px, 166px;
@@ -333,7 +335,9 @@
     background: rgb(248, 248, 248);
 
     .button_product {
-        display: none;
+        position: relative;
+        display: block;
+        position: relative;
         border: 1px solid rgb(159, 159, 159);
         position: absolute;
         width: 139px;
@@ -346,7 +350,7 @@
     }
 
     .button_product_text {
-        display: none;
+        position: relative;
         display: flex;
         align-items: center;
         gap: 11px;
@@ -363,6 +367,7 @@
     img {
         opacity: 1;
     }
+
 
     img:hover {
         opacity: .25;
