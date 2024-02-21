@@ -52,7 +52,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
-    letter-spacing: 0%;
+    /* letter-spacing: 0%; */
     text-align: left;
     padding-top: 32px;
     padding-left: 32px;
@@ -66,7 +66,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0%;
+    /* letter-spacing: 0%; */
     text-align: left;
     padding-left: 32px;
     padding-top: 12px;
@@ -82,7 +82,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0%;
+    /* letter-spacing: 0%; */
     text-align: left;
     text-decoration: none;
     display: block;
@@ -226,7 +226,7 @@
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0%;
+    /* letter-spacing: 0%; */
     text-align: center;
     color: #FFFFFF;
 }
@@ -242,7 +242,7 @@
     font-family: Lato;
     font-size: 24px;
     font-weight: 700;
-    letter-spacing: 0%;
+    /* letter-spacing: 0%; */
     text-align: center;
     color: #F16D7F;
 }
@@ -295,7 +295,7 @@
     margin-top: 96px;
     font-family: Lato;
     font-weight: 400;
-    letter-spacing: 0%;
+    /* letter-spacing: 0%; */
     text-align: center;
     background: rgb(255, 255, 255);
 }
@@ -326,7 +326,7 @@
 
 .product_product {
     display: grid;
-    grid-template-rows: 420px, 166px;
+    grid-template-rows: 420px 166px;
     max-width: 360px;
     max-height: 581px;
     align-items: start;
@@ -370,9 +370,8 @@
 
 
     img:hover {
-        opacity: .25;
+        opacity: 0.25;
     }
-
 }
 
 
@@ -392,7 +391,6 @@
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -402,7 +400,6 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 17px;
-    letter-spacing: 0%;
     text-align: left;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -416,7 +413,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -438,14 +434,12 @@
 
 
 .text_button {
-    margin-bottom: 60px;
     color: rgb(242, 99, 118);
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
 
 .under:hover {
@@ -495,8 +489,6 @@
     font-size: 19.96px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0%;
-    /* text-align: center; */
 }
 
 .p_under_content {
@@ -506,8 +498,6 @@
     font-size: 13.97px;
     font-weight: 300;
     line-height: 17px;
-    letter-spacing: 0%;
-    /* text-align: center; */
 }
 
 .subscribe {
@@ -533,7 +523,6 @@
     width: 360px;
     height: 225px;
     display: grid;
-    /* border: 1px solid #000; */
     align-content: space-evenly;
     justify-items: center;
     color: rgb(34, 34, 36);
@@ -542,7 +531,6 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -559,7 +547,6 @@
     margin-top: 53px;
     font-family: Lato;
     line-height: 153.2%;
-    letter-spacing: 0%;
     text-align: center;
     align-items: center;
 }
@@ -597,7 +584,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0%;
     text-align: left;
 }
 
@@ -607,7 +593,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    letter-spacing: 0%;
     text-align: center;
     width: 100px;
     height: 49px;
@@ -636,7 +621,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
-    letter-spacing: 0%;
     text-align: left;
     flex-wrap: wrap;
 }
