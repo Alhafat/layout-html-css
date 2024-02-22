@@ -72,8 +72,8 @@ a {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    
 }
+
 .navigations__link{
     font-size: 14px;
     font-weight: 300;
@@ -92,9 +92,31 @@ a {
     width: $widthSite;
     height: 777px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: rgb(247, 247, 247);
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    .previous_product{
+        width: 47px;
+        height: 47px;
+        background: rgba(42, 42, 42, 0.15);
+        top: 365px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .next_product{
+        width: 47px;
+        height: 47px;
+        background: rgba(42, 42, 42, 0.15);
+        top: 365px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 .content_center{
