@@ -278,15 +278,14 @@ a {
     min-height: 448px;
     background: linear-gradient(to top, rgba(244, 244, 244, 0.7), rgba(244, 244, 244, 0.7)), url(img/fonts_subscribe.svg) no-repeat center center fixed;
     background-size: cover;
-    /* display: grid; */
     display: flex;
     flex-wrap: wrap;
-    /* grid-template-columns: repeat(auto-fit, 360px 557px); */
-    /* grid-gap: 224px; */
     align-content: center;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 223px;
 }
+
 
 .sub_left {
     width: 360px;
