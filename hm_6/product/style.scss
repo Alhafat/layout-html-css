@@ -216,11 +216,12 @@ a {
     padding-top: 130px;
     padding-bottom: 128px;
     display: grid;
-    grid-template-columns: repeat(3, 360px);
+    grid-template-columns: repeat(auto-fit, 360px);
     grid-template-rows: 581px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     align-content: center;
+    gap: 30px;
 
     .product{
         background: rgb(248, 248, 248);
