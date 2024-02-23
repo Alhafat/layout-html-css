@@ -89,6 +89,7 @@ a {
   background: rgb(247, 247, 247);
   padding-left: 10px;
   padding-right: 10px;
+  border: 1px solid rgb(234, 234, 234);
 }
 .top_content .previous_product {
   width: 47px;
