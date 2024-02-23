@@ -126,6 +126,13 @@ a {
   display: flex;
   justify-content: center;
 
+  .bgborder {
+    background: rgb(239, 91, 112);
+    width: 63px;
+    height: 3.03px;
+    display: flex;
+    justify-self: center;
+  }
   .content {
     margin-top: -55px;
     padding-top: 65px;
