@@ -182,15 +182,15 @@ a {
 
     .parameters_products {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
       color: rgb(111, 110, 110);
       font-family: Lato;
       font-size: 14px;
       font-weight: 400;
       line-height: 17px;
-      letter-spacing: 0%;
       text-align: left;
+      gap: 20px;
 
       p {
         font-weight: 400;
