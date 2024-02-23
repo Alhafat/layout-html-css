@@ -5,6 +5,11 @@
 
 $colorSelectSite: rgb(241, 109, 127);
 $widthSite: 100%;
+$colorPreviousNext: rgba(42, 42, 42, 0.15);
+
+body {
+  font-family: Lato;
+}
 
 a {
   text-decoration: none;
@@ -47,7 +52,6 @@ a {
 
     .count {
       color: rgb(255, 255, 255);
-      font-family: Lato;
       font-size: 12px;
       font-weight: 400;
       line-height: 14px;
@@ -59,18 +63,19 @@ a {
 }
 
 .top_block {
-  width: $widthSite;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
   height: 148px;
-  color: $colorSelectSite;
+  color: rgb(241, 109, 127);
   background: rgb(248, 243, 244);
-  font-family: Lato;
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
   text-align: center;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -101,7 +106,7 @@ a {
   .previous_product {
     width: 47px;
     height: 47px;
-    background: rgba(42, 42, 42, 0.15);
+    background: $colorPreviousNext;
     top: 365px;
     display: flex;
     align-items: center;
@@ -111,7 +116,7 @@ a {
   .next_product {
     width: 47px;
     height: 47px;
-    background: rgba(42, 42, 42, 0.15);
+    background: $colorPreviousNext;
     top: 365px;
     display: flex;
     align-items: center;
@@ -149,8 +154,7 @@ a {
     padding-bottom: 65px;
 
     a {
-      color: rgb(241, 109, 127);
-      font-family: Lato;
+      color: $colorSelectSite;
       font-size: 14px;
       font-weight: 300;
       line-height: 17px;
@@ -158,7 +162,6 @@ a {
 
     h1 {
       color: rgb(77, 77, 77);
-      font-family: Lato;
       font-size: 18px;
       font-weight: 300;
       line-height: 22px;
@@ -166,7 +169,6 @@ a {
 
     p {
       color: rgb(94, 94, 94);
-      font-family: Lato;
       font-size: 14px;
       font-weight: 300;
       line-height: 17px;
@@ -174,7 +176,6 @@ a {
 
     .price {
       color: $colorSelectSite;
-      font-family: Lato;
       font-size: 24px;
       font-weight: 300;
       line-height: 29px;
@@ -185,7 +186,6 @@ a {
       justify-content: center;
       align-items: center;
       color: rgb(111, 110, 110);
-      font-family: Lato;
       font-size: 14px;
       font-weight: 400;
       line-height: 17px;
@@ -209,7 +209,6 @@ a {
       width: 212px;
       height: 50px;
       color: $colorSelectSite;
-      font-family: Lato;
       font-size: 16px;
       font-weight: 400;
       line-height: 19px;
@@ -241,7 +240,6 @@ a {
     padding-left: 16px;
     padding-right: 30px;
     color: rgb(0, 0, 0);
-    font-family: Lato;
     font-size: 13px;
     font-weight: 400;
     line-height: 16px;
@@ -253,7 +251,6 @@ a {
     padding-left: 16px;
     padding-right: 30px;
     color: rgb(93, 93, 93);
-    font-family: Lato;
     font-size: 14px;
     font-weight: 300;
     line-height: 17px;
@@ -266,7 +263,6 @@ a {
     padding-left: 16px;
     padding-right: 30px;
     color: $colorSelectSite;
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -304,7 +300,6 @@ a {
   align-content: space-evenly;
   justify-items: center;
   color: rgb(34, 34, 36);
-  font-family: Lato;
   font-style: italic;
   font-size: 18px;
   font-weight: 400;
@@ -323,7 +318,6 @@ a {
 
 .sub_rigth_text {
   margin-top: 53px;
-  font-family: Lato;
   line-height: 153.2%;
   text-align: center;
   align-items: center;
@@ -357,7 +351,6 @@ a {
 .text_input_field {
   margin-left: 22px;
   color: rgb(34, 34, 36);
-  font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -366,7 +359,6 @@ a {
 
 .buttom_sub {
   color: rgb(255, 255, 255);
-  font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -382,44 +374,49 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 15px;
-  width: 100%;
+  width: $widthSite;
   min-height: 79px;
   background: rgb(34, 34, 36);
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 250px 160px);
-  justify-content: space-around;
-  align-content: center;
-  align-items: center;
-}
-
-.left_foo {
-  color: rgb(251, 251, 251);
-  font-family: Lato;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 19px;
-  text-align: left;
-  flex-wrap: wrap;
-}
-
-.rigth_foo {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
-  gap: 8px;
-}
 
-.rigth-foo_elem {
-  width: 32px;
-  height: 32px;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  background: rgb(255, 255, 255);
-}
+  .footer_len {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px 160px);
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 
-.rigth-foo_elem:hover {
-  background: $colorSelectSite;
-  color: #3a7999;
+    .left_foo {
+      color: rgb(251, 251, 251);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19px;
+      text-align: left;
+      flex-wrap: wrap;
+    }
+
+    .rigth_foo {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .rigth-foo_elem {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      background: rgb(255, 255, 255);
+    }
+
+    .rigth-foo_elem:hover {
+      background: $colorSelectSite;
+      color: #3a7999;
+    }
+  }
 }
