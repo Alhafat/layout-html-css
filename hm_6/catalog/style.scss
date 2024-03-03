@@ -198,6 +198,7 @@ a {
       top: 45px;
       background: rgb(255, 255, 255);
       box-shadow: 6px 4px 35px $shadow;
+      z-index: 1;
     }
 
     &[open] path {
@@ -224,6 +225,10 @@ a {
       font-weight: 600;
       line-height: 17px;
       text-align: left;
+
+      &:hover {
+        color: $colorSelectSite;
+      }
     }
 
     &__content {
@@ -242,6 +247,9 @@ a {
           border-bottom: 1px solid rgb(235, 235, 235);
           padding: 8px 11px 11px 11px;
           border-left: 5px solid $colorSelectSite;
+          &:hover {
+            color: $colorSelectSite;
+          }
         }
 
         &[open] .filter__content__item__head {
@@ -272,62 +280,63 @@ a {
   }
 
   .sort {
-    position: absolute;
+    position: relative;
     left: 38.75%;
     display: flex;
     flex-direction: row;
     gap: 28px;
+    box-sizing: border-box;
 
-    &__head {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 10px;
+    &__item {
+      background: rgb(255, 255, 255);
+
+      &__head {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+
+        &__text {
+          color: $colorText2;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+
+          &:hover {
+            color: $colorSelectSite;
+          }
+        }
+      }
 
       &[open] path {
         fill: $colorSelectSite;
       }
-
-      &__text {
-        color: $colorText2;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 17px;
-        // text-align: center;
-
-        &:hover {
-          color: $colorSelectSite;
-        }
-      }
-    }
-
-    &__box {
-      box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
-      background: rgb(255, 255, 255);
-      width: 4.9375vw;
-      height: 103px;
-      padding: 7px 30px 11px 9px;
-      position: absolute;
-      top: 21px;
-      left: 151px;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      align-items: left;
-
-      &__item {
-        display: flex;
-        gap: 9px;
-        border-left: 1px solid rgb(235, 235, 235);
+      &__box {
+        box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
         background: rgb(255, 255, 255);
+        width: 4.9375vw;
+        height: 103px;
+        padding: 7px 30px 11px 9px;
+        position: absolute;
+        top: 73px;
+        left: 151px;
 
+        &__item {
+          border-left: 1px solid rgb(235, 235, 235);
+          background: rgb(255, 255, 255);
+        }
         &__text {
+          padding-left: 9px;
           color: rgb(111, 110, 110);
           font-family: Roboto;
           font-size: 14px;
           font-weight: 400;
           line-height: 16px;
           text-align: left;
+
+          &:hover {
+            color: $colorSelectSite;
+          }
         }
       }
     }

@@ -202,6 +202,7 @@ a {
   top: 45px;
   background: rgb(255, 255, 255);
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  z-index: 1;
 }
 .content__menu .filter[open] path {
   fill: rgb(241, 109, 127);
@@ -224,6 +225,9 @@ a {
   line-height: 17px;
   text-align: left;
 }
+.content__menu .filter__heading:hover {
+  color: rgb(241, 109, 127);
+}
 .content__menu .filter__content__item {
   margin-top: 24px;
   padding-left: 17px;
@@ -239,6 +243,9 @@ a {
   border-bottom: 1px solid rgb(235, 235, 235);
   padding: 8px 11px 11px 11px;
   border-left: 5px solid rgb(241, 109, 127);
+}
+.content__menu .filter__content__item__head:hover {
+  color: rgb(241, 109, 127);
 }
 .content__menu .filter__content__item[open] .filter__content__item__head {
   color: rgb(241, 109, 127);
@@ -261,57 +268,59 @@ a {
   color: rgb(241, 109, 127);
 }
 .content__menu .sort {
-  position: absolute;
+  position: relative;
   left: 38.75%;
   display: flex;
   flex-direction: row;
   gap: 28px;
+  box-sizing: border-box;
 }
-.content__menu .sort__head {
+.content__menu .sort__item {
+  background: rgb(255, 255, 255);
+}
+.content__menu .sort__item__head {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 10px;
 }
-.content__menu .sort__head[open] path {
-  fill: rgb(241, 109, 127);
-}
-.content__menu .sort__head__text {
+.content__menu .sort__item__head__text {
   color: rgb(111, 110, 110);
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
 }
-.content__menu .sort__head__text:hover {
+.content__menu .sort__item__head__text:hover {
   color: rgb(241, 109, 127);
 }
-.content__menu .sort__box {
+.content__menu .sort__item[open] path {
+  fill: rgb(241, 109, 127);
+}
+.content__menu .sort__item__box {
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   background: rgb(255, 255, 255);
   width: 4.9375vw;
   height: 103px;
   padding: 7px 30px 11px 9px;
   position: absolute;
-  top: 21px;
+  top: 73px;
   left: 151px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  align-items: left;
 }
-.content__menu .sort__box__item {
-  display: flex;
-  gap: 9px;
+.content__menu .sort__item__box__item {
   border-left: 1px solid rgb(235, 235, 235);
   background: rgb(255, 255, 255);
 }
-.content__menu .sort__box__item__text {
+.content__menu .sort__item__box__text {
+  padding-left: 9px;
   color: rgb(111, 110, 110);
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
+}
+.content__menu .sort__item__box__text:hover {
+  color: rgb(241, 109, 127);
 }
 
 .content {
