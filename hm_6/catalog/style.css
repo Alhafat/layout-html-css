@@ -268,59 +268,53 @@ a {
   color: rgb(241, 109, 127);
 }
 .content__menu .sort {
-  position: relative;
-  left: 38.75%;
+  margin-left: 24.375%;
   display: flex;
   flex-direction: row;
-  gap: 28px;
-  box-sizing: border-box;
-}
-.content__menu .sort__item {
-  background: rgb(255, 255, 255);
-}
-.content__menu .sort__item__head {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 10px;
-}
-.content__menu .sort__item__head__text {
+  position: absolute;
+  gap: 1.75vw;
   color: rgb(111, 110, 110);
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
 }
-.content__menu .sort__item__head__text:hover {
-  color: rgb(241, 109, 127);
+.content__menu .sort__item__size[open] {
+  z-index: 1;
 }
-.content__menu .sort__item[open] path {
+.content__menu .sort__item__size[open] path {
   fill: rgb(241, 109, 127);
 }
-.content__menu .sort__item__box {
-  box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
-  background: rgb(255, 255, 255);
-  width: 4.9375vw;
-  height: 103px;
-  padding: 7px 30px 11px 9px;
-  position: absolute;
-  top: 73px;
-  left: 151px;
+.content__menu .sort__item__size[open] .sort__item__head {
+  color: rgb(241, 109, 127);
 }
-.content__menu .sort__item__box__item {
-  border-left: 1px solid rgb(235, 235, 235);
-  background: rgb(255, 255, 255);
+.content__menu .sort__item__size__head {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 10px;
 }
-.content__menu .sort__item__box__text {
-  padding-left: 9px;
+.content__menu .sort__item__size__head:hover {
+  color: rgb(241, 109, 127);
+}
+.content__menu .sort__item__size__head__text {
+  padding-top: 10px;
+  color: rgb(111, 110, 110);
+}
+.content__menu .sort__box {
+  margin-top: 5px;
+  width: 80px;
+  background: rgb(255, 255, 255);
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 7px;
   color: rgb(111, 110, 110);
   font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
-}
-.content__menu .sort__item__box__text:hover {
-  color: rgb(241, 109, 127);
 }
 
 .content {
