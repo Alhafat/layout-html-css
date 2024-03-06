@@ -290,6 +290,8 @@ a {
     line-height: 17px;
 
     &__item__size {
+      box-sizing: border-box;
+
       &[open] {
         z-index: 1;
       }
@@ -303,6 +305,7 @@ a {
       }
 
       &__head {
+        box-sizing: border-box;
         display: flex;
         flex-direction: row;
         text-align: center;
