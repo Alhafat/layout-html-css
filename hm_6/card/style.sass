@@ -1,0 +1,227 @@
+@import "@vars"
+@import  "@footer"
+@import  "@header"
+@import  "@subscribe"
+
+*
+    margin: 0
+    padding: 0
+
+summary
+    display: block
+
+summary::-webkit-details-marker
+    display: none
+
+body
+    font-family: Lato
+
+a
+    text-decoration: none
+    color: inherit
+
+.top
+    width: 100%
+    height: 150px
+    background: rgb(248, 243, 244)
+    padding-left: 15%
+    padding-right: 15%
+    display: flex
+    align-items: center
+
+    a
+        color: $colorSelectSite
+        font-size: 24px
+        font-weight: 400
+        line-height: 29px
+        text-align: left
+
+.content
+    padding-left: 15%
+    padding-right: 15%
+    height: 1000px
+    gap: 128px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+
+    &__left
+        margin-top: 96px
+        width: 652px
+        display: flex
+        flex-direction: column
+        gap: 40px
+
+        &__items
+            max-width: 652px
+            box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13)
+            background: rgb(255, 255, 255)
+
+        &__product
+            display: flex
+
+            &__del_product
+                display: flex
+                margin-top: 28px
+                margin-left: 31px
+
+                *:hover
+                    fill: $colorSelectSite
+                    // transition: 0.3s
+
+            &__order_specification
+                margin-top: 22px
+                padding-left: 31px
+                color: $colorHedaderFooter
+                font-size: 24px
+                font-weight: 400
+                line-height: 29px
+                text-align: left
+
+                a:hover
+                    color: $colorSelectSite
+                    transition: 0.3s
+
+                &__ul
+                    margin-top: 36px
+                    color: $colorText2
+                    font-size: 22px
+                    font-weight: 400
+                    line-height: 26px
+                    text-align: left
+
+            &__order_specification__li
+                padding-top: 6px
+
+                &__colorSelectSite
+                    color: $colorSelectSite
+
+                &__quantity
+                    padding: 2px 16px 1px 17px
+                    border: 1px solid rgb(234, 234, 234)
+
+        &__clear_continue_shoping
+            display: flex
+            flex-direction: row
+            justify-content: space-between
+
+            &__button
+                width: 235px
+                height: 50px
+                margin-left: 40px
+                margin-right: 40px
+                border: 1px solid rgb(164, 164, 164)
+                display: flex
+                flex-wrap: nowrap
+                align-items: center
+                justify-content: center
+                color: $colorText
+                font-size: 14px
+                font-weight: 300
+                line-height: 17px
+                text-align: left
+
+                &:hover
+                    background: $colorSelectSite
+                    color: white
+                    transition: 1s
+
+    &__rigth
+        width: 720px
+        display: flex
+        flex-direction: column
+        align-items: flex-end
+
+        &__form_shipping
+            margin-top: 113px
+            color: rgb(34, 34, 34)
+            font-size: 16px
+            font-weight: 300
+            line-height: 19px
+            text-align: left
+
+            &__form_fill
+                padding: 16px 278px 17px 13px
+                margin-top: 20px
+                border: 1px solid rgb(164, 164, 164)
+                color: rgb(177, 177, 177)
+                font-size: 13px
+                font-weight: 300
+                line-height: 16px
+                text-align: left
+
+            &__button
+                margin-top: 23px
+                border: 1px solid rgb(164, 164, 164)
+                padding: 10px 15px 12px
+                color: rgb(74, 74, 74)
+                font-size: 11px
+                font-weight: 300
+                line-height: 13px
+                text-align: left
+
+                &:hover
+                    background: $colorSelectSite
+                    color: $colorbgproducts
+                    transition: 1s
+
+        &__confirm_box
+            margin-top: 57px
+            background: rgb(245, 243, 243)
+            width: 422px
+            height: 214px
+            // padding-right: 34px
+            display: flex
+            justify-content: center
+
+            &__content
+
+                h2
+                    margin-top: 39px
+                    text-align: right
+                    color: rgb(74, 74, 74)
+                    font-size: 11px
+                    font-weight: 400
+                    line-height: 13px
+
+                h1
+                    margin-top: 12px
+                    text-align: right
+                    font-family: Lato
+                    font-size: 16px
+                    font-weight: 300
+                    line-height: 19px
+                    color: $colorHedaderFooter
+
+                &__colorSelectSite
+                    font-family: Lato
+                    font-size: 16px
+                    font-weight: 700
+                    line-height: 19px
+                    color: $colorSelectSite
+
+                &__empty_border
+                    margin-top: 21px
+                    background: rgb(226, 226, 226)
+                    width: 275px
+                    height: 1px
+
+                &__button
+                    width: 273px
+                    flex-wrap: nowrap
+                    margin-top: 17px
+                    background: $colorSelectSite
+                    color: $colorbgproducts
+                    font-size: 16px
+                    font-weight: 300
+                    line-height: 19px
+                    text-align: left
+                    padding-left: 41px
+                    padding-right: 41px
+                    padding-bottom: 16px
+                    padding-top: 15px
+
+                    &:hover
+                        background: green
+                        color: white
+                        transition: 1s

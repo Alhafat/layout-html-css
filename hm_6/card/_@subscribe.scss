@@ -1,0 +1,101 @@
+@import "@vars";
+
+.subscribe {
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 100%;
+  min-height: 448px;
+  background: linear-gradient(
+      to top,
+      rgba(244, 244, 244, 0.7),
+      rgba(244, 244, 244, 0.7)
+    ),
+    url(img/fonts_subscribe.svg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sub_left {
+  width: 360px;
+  height: 225px;
+  display: grid;
+  align-content: space-evenly;
+  justify-items: center;
+  color: $colorHedaderFooter;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.sub_rigth {
+  width: 360px;
+  height: 142px;
+  display: grid;
+  color: $colorHedaderFooter;
+  align-content: space-evenly;
+  justify-content: center;
+}
+
+.sub_rigth_text {
+  margin-top: 53px;
+  line-height: 153.2%;
+  text-align: center;
+  align-items: center;
+}
+
+.sub_inter_position {
+  width: 356px;
+  display: flex;
+  align-items: center;
+}
+
+.sub_rigth_h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.sub_rigth_p {
+  padding-bottom: 32px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.input_field {
+  padding-left: 10px;
+  width: 256px;
+  height: 49px;
+  background: rgb(225, 225, 225);
+  border-radius: 40px 0 0 40px;
+}
+
+.text_input_field {
+  margin-left: 22px;
+  color: rgb(34, 34, 36);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.buttom_sub {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: center;
+  width: 100px;
+  height: 49px;
+  border-radius: 0 40px 40px 0;
+  background: $colorSelectSite;
+}
+.buttom_sub:hover {
+  background: green;
+  color: white;
+  transition: 1s;
+}
