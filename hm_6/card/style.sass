@@ -39,7 +39,8 @@ a
 .content
     padding-left: 15%
     padding-right: 15%
-    height: 1000px
+    padding-bottom: 130px
+    width: 100%
     gap: 128px
     display: flex
     flex-direction: row
@@ -53,7 +54,7 @@ a
         gap: 40px
 
         &__items
-            max-width: 652px
+            // max-width: 652px
             box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.13)
             background: rgb(255, 255, 255)
 
@@ -127,10 +128,9 @@ a
                     transition: 1s
 
     &__rigth
-        width: 720px
+        width: 360px
         display: flex
         flex-direction: column
-        align-items: flex-end
 
         &__form_shipping
             margin-top: 113px
@@ -141,7 +141,8 @@ a
             text-align: left
 
             &__form_fill
-                padding: 16px 278px 17px 13px
+                padding: 16px 0 17px 13px
+                width: 360px
                 margin-top: 20px
                 border: 1px solid rgb(164, 164, 164)
                 color: rgb(177, 177, 177)
@@ -166,11 +167,10 @@ a
                     transition: 1s
 
         &__confirm_box
+            width: 360px
             margin-top: 57px
             background: rgb(245, 243, 243)
-            width: 422px
             height: 214px
-            // padding-right: 34px
             display: flex
             justify-content: center
 
@@ -225,3 +225,5 @@ a
                         background: green
                         color: white
                         transition: 1s
+
+@import  "@media"

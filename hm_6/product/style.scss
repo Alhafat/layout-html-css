@@ -1,3 +1,5 @@
+@import "@media";
+
 * {
   margin: 0;
   padding: 0;
@@ -218,7 +220,7 @@ a {
 }
 
 .products {
-  padding-top: 130px;
+  padding-top: 65px;
   padding-bottom: 128px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 360px);
@@ -285,12 +287,14 @@ a {
     ),
     url(img/fonts_subscribe.svg) no-repeat center center fixed;
   background-size: cover;
+  /* display: grid; */
   display: flex;
   flex-wrap: wrap;
+  /* grid-template-columns: repeat(auto-fit, 360px 557px); */
+  /* grid-gap: 224px; */
   align-content: center;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  gap: 400px;
 }
 
 .sub_left {
@@ -300,6 +304,7 @@ a {
   align-content: space-evenly;
   justify-items: center;
   color: rgb(34, 34, 36);
+  font-family: Lato;
   font-style: italic;
   font-size: 18px;
   font-weight: 400;
@@ -318,6 +323,7 @@ a {
 
 .sub_rigth_text {
   margin-top: 53px;
+  font-family: Lato;
   line-height: 153.2%;
   text-align: center;
   align-items: center;
@@ -351,6 +357,7 @@ a {
 .text_input_field {
   margin-left: 22px;
   color: rgb(34, 34, 36);
+  font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -359,6 +366,7 @@ a {
 
 .buttom_sub {
   color: rgb(255, 255, 255);
+  font-family: Lato;
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -366,7 +374,7 @@ a {
   width: 100px;
   height: 49px;
   border-radius: 0 40px 40px 0;
-  background: $colorSelectSite;
+  background: rgb(241, 109, 127);
 }
 
 .footer {

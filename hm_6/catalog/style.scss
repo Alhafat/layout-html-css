@@ -1,5 +1,4 @@
 @import "@vars";
-@import "@media";
 
 * {
   margin: 0;
@@ -16,7 +15,6 @@ summary::-webkit-details-marker {
 
 body {
   font-family: Lato;
-  //   background: $colorBGBody;
 }
 
 a {
@@ -617,3 +615,5 @@ a {
     }
   }
 }
+
+@import "@media";

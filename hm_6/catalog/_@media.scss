@@ -15,9 +15,45 @@
 }
 
 @media (width: 768px) {
+  .header {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header__quantity {
+    position: absolute;
+    right: 25px;
+    top: 19px;
+  }
+
+  .top_block {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .content__menu {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .content {
+    padding-left: 16px;
+    padding-right: 16px;
+    grid-template-columns: repeat(2, minmax(0px, 360px));
+    &__product_3 {
+      display: none;
+    }
+  }
+
+  .footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
   .under_content {
     display: grid;
     grid-template-columns: repeat(auto-fit, 360px);
+    justify-content: center;
     gap: 47px;
   }
 }
