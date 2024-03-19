@@ -491,6 +491,11 @@ a {
     align-items: center;
     gap: 15px;
   }
+  .subscribe {
+    justify-content: center;
+    padding-top: 53px;
+    padding-bottom: 140px;
+  }
 }
 @media (width: 768px) {
   .header {

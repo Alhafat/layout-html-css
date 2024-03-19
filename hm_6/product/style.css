@@ -8,6 +8,11 @@
     padding-bottom: 140px;
   }
 }
+@media (max-width: 1024px) {
+  .product_3 {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
