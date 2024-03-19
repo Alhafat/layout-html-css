@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (max-width: 1440px) {
   .content {
     display: flex;
@@ -13,10 +14,26 @@
       align-items: center;
       gap: 15px;
     }
+=======
+@media (max-width: 1024px) {
+  .under_content {
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe {
+    padding-top: 50px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+>>>>>>> f5faac4e6c4fb5f58f15bcdef2410974694df991
   }
 }
 
 @media (width: 768px) {
+<<<<<<< HEAD
   .header {
     padding-left: 32px;
     padding-right: 32px;
@@ -60,5 +77,11 @@
   .footer {
     padding-left: 32px;
     padding-right: 32px;
+=======
+  .under_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    gap: 47px;
+>>>>>>> f5faac4e6c4fb5f58f15bcdef2410974694df991
   }
 }
