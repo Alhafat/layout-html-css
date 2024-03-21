@@ -1,4 +1,10 @@
-@media (max-width: 1024px) {
+@media (width: 1024px) {
+  .header {
+    &__quantity {
+      right: 14%;
+    }
+  }
+
   .under_content {
     padding: 65px;
     display: flex;
@@ -14,16 +20,15 @@
   }
 }
 
-@media (width: 768px) {
+@media (max-width: 768px) {
   .header {
     padding-left: 32px;
     padding-right: 32px;
-  }
-
-  .header__quantity {
-    position: absolute;
-    right: 25px;
-    top: 19px;
+    &__quantity {
+      position: absolute;
+      right: 25px;
+      top: 19px;
+    }
   }
 
   .top_block {
@@ -52,8 +57,93 @@
 
   .under_content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 360px);
+    flex-direction: column;
     justify-content: center;
     gap: 47px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+  .subscribe {
+    padding-top: 50px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+    &__quantity {
+      display: none;
+    }
+    .rigth_elem {
+      display: flex;
+      &__item_2 {
+        display: none;
+      }
+
+      &__item_3 {
+        display: none;
+      }
+    }
+  }
+
+  .top_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .content {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    &__left {
+      width: 100%;
+
+      &__form_box {
+        width: 100%;
+
+        &__form {
+          width: 100%;
+        }
+      }
+    }
+    &__right {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .scrool_pages .btns-pages {
+    width: 360px;
+  }
+
+  .subscribe {
+    padding-top: 50px;
+    padding-bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .footer {
+    display: flex;
+    .footer_len {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 25px;
+      padding-top: 43px;
+      padding-bottom: 28px;
+    }
   }
 }

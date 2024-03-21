@@ -1,5 +1,3 @@
-@import "@media";
-
 * {
   margin: 0;
   padding: 0;
@@ -37,14 +35,14 @@ a {
     align-items: end;
   }
 
-  .rigth_elem {
+  &__rigth_elem {
     display: grid;
     grid-template-columns: repeat(3, 32px);
     gap: 25px;
     align-items: center;
   }
 
-  .quantity {
+  &__quantity {
     position: absolute;
     width: 19px;
     height: 19px;
@@ -428,3 +426,5 @@ a {
     }
   }
 }
+
+@import "@media";
